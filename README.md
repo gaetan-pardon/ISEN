@@ -23,15 +23,15 @@ Travaux d'administrateur système:
 Travaux hardware (montage de PC, diagnostiques de pannes, restaurer des machines dégradées etc);
 Installation d'un serveur web local
 
-Fine-tuner un modèle intégration et via la création de lora
+Fine-tuner un modèle intégralement et via la création de lora
  
 
 ## Compétences techniques  
 
-**Python**, hugging face, transformer, Pytorch  
-C, C++, arduino C, cuda C  
-HTML, CSS, SQL
-Hardware, Bash, installation d'OS et de serveur (nginx)
+developement IA : **Python**, hugging face, transformer, Pytorch, cuda C   
+developement Infomatique embarqué : C, C++, arduino C,  
+developement web : HTML, CSS, SQL
+administrateur systèmes :Hardware, Bash, installation d'OS et de serveur (nginx)
 
 
 ## Projet marquant  
