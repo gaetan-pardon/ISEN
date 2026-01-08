@@ -30,7 +30,7 @@ Fine-tuner un modèle intégralement et via la création de lora
 
 developement IA : **Python**, hugging face, transformer, Pytorch, cuda C   
 developement Infomatique embarqué : C, C++, arduino C,  
-developement web : HTML, CSS, SQL
+developement web : HTML, CSS, SQL  
 administrateur systèmes :Hardware, Bash, installation d'OS et de serveur (nginx)
 
 
