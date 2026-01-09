@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio de Gaétan Pardon</title>
+  <meta name="description" content="Portfolio de Gaétan Pardon – Présentation, parcours, compétences techniques et projets marquants." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- header rendu dynamiquement -->
+    <header id="header" aria-label="En-tête"></header>
+
+    <main>
+      <!-- navigation pour afficher/masquer sections -->
+      <nav id="section-controls" aria-label="Navigation des sections"></nav>
+
+      <!-- contenu dynamique (Présentation, Parcours, Compétences, etc.) -->
+      <section id="content" aria-live="polite"></section>
+
+      <!-- section Projets: filtres + liste + détail -->
+      <section id="projects-section" aria-labelledby="projets">
+        <h2 id="projets">Projets marquants</h2>
+        <div id="project-filters" class="filters"></div>
+        <div id="project-list" class="project-list"></div>
+        <div id="project-detail" class="project-detail hidden" aria-live="polite"></div>
+      </section>
+
+      <!-- footer rendu dynamiquement -->
+      <footer id="footer"></footer>
+    </main>
+  </div>
+
+  <script src="portfolio.js" defer></script>
+</body>
+</html>

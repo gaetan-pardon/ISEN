@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Portfolio de Gaétan Pardon</title>
+  <meta name="description" content="Formulaire de contact (simulation côté client) pour le portfolio." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title">Contact</div>
+      <p class="intro">Formulaire sans backend : les messages sont stockés temporairement côté client.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">Me contacter</h2>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Nom *</label>
+            <input id="name" name="name" type="text" required aria-required="true" />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required aria-required="true" />
+          </div>
+
+          <div class="form-row">
+            <label for="subject">Sujet</label>
+            <input id="subject" name="subject" type="text" />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+          </div>
+
+          <div class="form-row">
+            <button type="submit" class="btn">Envoyer (simulation)</button>
+            <button type="reset" class="btn btn-secondary">Réinitialiser</button>
+          </div>
+
+          <div id="form-messages" class="form-messages" role="status" aria-live="polite"></div>
+        </form>
+      </section>
+
+      <section aria-labelledby="history-title">
+        <h2 id="history-title">Historique (temporaire)</h2>
+        <div id="submissions" class="submissions">Aucun message enregistré.</div>
+      </section>
+
+      <p><a href="indexWjs.html">← Retour au portfolio</a></p>
+    </main>
+  </div>
+
+  <script src="contact.js" defer></script>
+</body>
+</html>
